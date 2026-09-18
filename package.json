@@ -1,0 +1,25 @@
+{
+  "name": "obsidian-research-panel",
+  "version": "0.1.0",
+  "description": "Side panel that surfaces relevant academic documents for the working note.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.mjs",
+    "deploy": "node esbuild.mjs once && node scripts/deploy.mjs",
+    "build": "tsc --noEmit && node esbuild.mjs production",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "esbuild": "^0.25.0",
+    "obsidian": "^1.8.7",
+    "typescript": "^5.8.0",
+    "vitest": "^3.1.0"
+  }
+}

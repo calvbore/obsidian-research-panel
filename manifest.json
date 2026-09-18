@@ -1,0 +1,9 @@
+{
+  "id": "research-panel",
+  "name": "Research Panel",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Surface relevant academic documents for the working note, with pinning, dismissal and per-document state.",
+  "author": "cqb",
+  "isDesktopOnly": true
+}
